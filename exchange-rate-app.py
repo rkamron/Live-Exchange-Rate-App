@@ -36,8 +36,6 @@ def get_info():
 # Driver Code	 
 # Create tkinter object
 master = Tk()
-
-# Set background color
 master.configure(bg='light grey')
 
 # Variable Classes in tkinter
@@ -71,4 +69,4 @@ Label(master, text="", textvariable=time,
 # Create submit button
 b = Button(master, text="Show", command=get_info, bg="Blue").grid(row=0)
 
-mainloop()
+master.mainloop()
